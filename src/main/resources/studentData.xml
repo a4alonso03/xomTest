@@ -1,0 +1,11 @@
+<students>
+    <student>
+        <studentID></studentID>
+        <username></username>
+        <password></password>
+        <name></name>
+        <firstLastName></firstLastName>
+        <secondLastName></secondLastName>
+        <birthdate></birthdate>
+    </student>
+</students>

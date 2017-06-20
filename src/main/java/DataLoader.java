@@ -1,21 +1,23 @@
+
 import java.util.List;
 
 /**
  * Created by Alonso Garita on 6/19/2017.
  */
-public class ExerciseDataLoader {
+public class DataLoader {
     /*Pertinent services to insert into database*/
-    ExerciseXMLLoader xmlLoader;
+    XMLLoader xmlLoader;
 
-    public ExerciseDataLoader() {
-        this.xmlLoader = new ExerciseXMLLoader();
+    public DataLoader() {
+        this.xmlLoader = new XMLLoader();
     }
 
     public void load(){
-        System.out.println("START");
+        System.out.println("DATA LOAD START");
         try {
-            xmlLoader.setFile("classpath:data.xml");
-            List<Exercise> exerciseList = xmlLoader.parseExercises();
+            List<Administrator> adminList = xmlLoader.parseAdministrators("classpath:administratorData.xml");
+            List<Student> studentList = xmlLoader.parseStudents("classpath:studentData.xml");
+            List<Exercise> exerciseList = xmlLoader.parseExercises("classpath:exerciseData.xml");
 
             //insert every exercise to database;
                 //insert every answer to database;

@@ -1,0 +1,12 @@
+<admins>
+    <admin>
+        <username></username>
+        <adminID></adminID>
+        <name></name>
+        <firstLastName></firstLastName>
+        <secondLastName></secondLastName>
+        <birthdate></birthdate>
+        <password></password>
+        <is_enabled></is_enabled>
+    </admin>
+</admins>
