@@ -4,7 +4,7 @@
 public class Main {
     public static void main(String[] args) {
         ExerciseDataLoader loader = new ExerciseDataLoader();
-        //loader.load();
+        loader.load();
         System.exit(0);
 
     }
