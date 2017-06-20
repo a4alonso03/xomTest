@@ -65,71 +65,7 @@
             </answers>
         </exercise>
     </exercises>
-
-
-
-
-
-
-    <exercise>
-        <id> primerID </id>
-        <problem> find best route using dijkstra </problem>
-        <topics>
-            <topic>
-                <name>Grafos</name>
-                <num>1</num>
-            </topic>
-        </topics>
-        <answers>
-            <answer>
-                <text>left</text>
-                <procedure>
-                    <proc>go left</proc>
-                    <author> Milton </author>
-                </procedure>
-            </answer>
-        </answers>
-
-    </exercise>
-
-    <exercise>
-        <id> segundoID </id>
-        <problem> find best route using floyd </problem>
-        <topics>
-            <topic>
-                <name>caminos</name>
-                <num>2</num>
-            </topic>
-        </topics>
-        <answers>
-            <answer>
-                <text>right</text>
-                <procedures>
-                    <procedure>go right</procedure>
-                    <author> El Brayan </author>
-                </procedures>
-            </answer>
-        </answers>
-    </exercise>
-
-    <exercise>
-        <id> tercerID </id>
-        <problem> find best route using prim </problem>
-        <topics>
-            <topic>
-                <name>greedy</name>
-                <num>3</num>
-            </topic>
-        </topics>
-        <answers>
-            <answer>
-                <text>center</text>
-                <procedures>
-                    <procedure>go center</procedure>
-                    <author> El Margo </author>
-                </procedures>
-            </answer>
-        </answers>
-    </exercise>
-
 </projectData>
+
+
+
